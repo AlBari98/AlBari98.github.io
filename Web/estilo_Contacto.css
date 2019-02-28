@@ -1,0 +1,77 @@
+@font-face {
+  font-family: 'Tipografía';
+  src: url('Tipografía/PlayfairDisplaySC-Black.otf') 
+}
+
+*{
+	box-sizing: border-box;
+	padding: 0px;
+	margin: 0px;
+}
+
+html, body{
+	height: 100%;
+	width:100%;
+    color: #01a34d;
+}
+
+span{
+    text-align: center;
+    font-size: 25px;
+    
+}
+
+#Nombre {
+    font-size: 60px;
+}
+
+#Menu {
+    display: flex;
+    height: 10%;
+    width: 50%;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.button {
+    background-color:white;
+    border: none;
+    color: #01a34d;
+    padding: 16px 32px;
+    text-align: center;
+    text-decoration: none;
+    font-size: 18px;
+    margin: 4px 2px;
+    transition-duration: 0.5s;
+    cursor: pointer;
+    border-radius: 15%;
+}
+
+.button:hover {
+    background-color: rgb(1, 163, 77, 0.8);
+    color: white;
+    box-shadow: 0 12px 30px 0 rgba(0,0,0,0.30),0 10px 10px 0 rgba(0,0,0,0.30);
+}
+
+#Contacto {
+    height: 40%;
+    width: 21%;
+    justify-content: center;
+    align-items: center;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+}
+
+i {
+    font-size: 30px;
+    margin-right: 20px;
+}
+
+a{
+    text-decoration: none;
+}
